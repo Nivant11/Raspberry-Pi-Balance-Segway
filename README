@@ -1,0 +1,22 @@
+This program will generate a PID control signal based on the angle of the sensor. The sensor that is used is the BerryIMUv3. It is intended for
+use with a segway balance car. 
+
+The program uses a complementary filter for the sensor fusion.
+The code utilizes the pigpio library, which you must have installed in order to run the program.
+
+All the components used:
+Raspberry Pi 4B
+BerryIMUv3
+L298N Motor Driver
+2x JGA25-371 Motor with encoder
+12V battery pack
+Portable charger (for powering the RPi)
+
+Compile with;
+gcc -o pid -l rt pid.c -lm -lpigpio
+
+To run;
+sudo ./pid
+
+
+
