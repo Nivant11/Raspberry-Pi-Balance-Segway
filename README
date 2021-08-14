@@ -4,6 +4,8 @@ use with a segway balance car.
 The program uses a complementary filter for the sensor fusion.
 The code utilizes the pigpio library, which you must have installed in order to run the program.
 
+EXTENSIVE DOCUMENTAION!!!!!!!!!!!----------------------------------------------------> https://drive.google.com/file/d/1JJNBphR-rf7xdXEM8QHsS67_FICa17gy/view?usp=sharing
+
 All the components used:
 Raspberry Pi 4B
 BerryIMUv3
